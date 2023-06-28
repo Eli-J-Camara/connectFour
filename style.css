@@ -1,0 +1,51 @@
+.column {
+    width: 50px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#red {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#black {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#redDisc{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 5px;
+    height: 36px;
+    width: 36px;
+    background-color: red;
+}
+
+#blackDisc{
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 5px;
+    height: 36px;
+    width: 36px;
+    background-color: black;
+}
+
+#board {
+    display: flex;
+}
+
+#body {
+    font-size: 800px;
+}
+
